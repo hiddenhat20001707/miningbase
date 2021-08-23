@@ -1,0 +1,435 @@
+@media only screen and ( max-width: 1199px ) {
+
+	/*** slider css ***/
+
+	#myCarousel .carousel-item {
+	    min-height: 380px;
+	}
+
+	/*** work css ***/
+
+	.work_main .work_wrap:nth-child(2) .work_box::before {
+		width: 210px;
+		left: -130px;
+	}
+	.work_main .work_wrap:nth-child(2) .work_box::after {
+		right: -130px;
+		width: 210px;
+	}
+
+	/*** Abouts css ***/
+
+	.about-image::before {
+	    width: 300px;
+		height: 230px;
+		top: 130px;
+		left: 48px;
+	}
+
+	.about-image .about-2 {
+	    top: 200px;
+	    left: 100px;
+	}
+
+
+	.single-image.affiliate_20:hover .affiliate-content {
+		width: 80%;
+	}
+
+	.price-wrapper .read-more {
+		width: 100%;
+		padding: 0;
+	}
+
+}
+
+@media only screen and ( max-width: 991px ) {
+
+	/*** menu ***/
+	.responsive_btn {
+	  	cursor: pointer;
+	  	display: inline-block;
+		z-index: 7;
+		border: 1px solid #f1a619;
+		float: none;
+		margin: 0px 0px 0px 0px;
+		border-radius: 0px;
+		background: #f1a619;
+		padding: 5px 10px;
+	}
+	.responsive_btn {
+	    position: absolute;
+	    top: 18px;
+	    right: 0;
+	}
+	.bar1, .bar2, .bar3 {
+	  	width: 25px;
+	  	height: 2px;
+	  	background-color: #fff;
+	  	margin: 5px 0;
+	  	transition: 0.4s;
+	}
+	.change .bar1 {
+	  	-webkit-transform: rotate(-45deg) translate(-6px, 6px);
+	  	transform: rotate(-45deg) translate(-6px, 6px);
+	}
+	.change .bar2 {opacity: 0;}
+	.change .bar3 {
+	  	-webkit-transform: rotate(45deg) translate(-4px, -4px);
+	  	transform: rotate(45deg) translate(-4px, -4px);
+	}
+	.header nav {
+		float: unset;
+		margin-right: 0;
+	}
+	nav #navbar {
+	    position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		background-color: #000;
+		overflow: visible;
+		color: #fff;
+		display: none;
+		z-index: 999;
+		width: 70%;
+	}
+	#navbar li {
+	    width: 100%;
+	    border-bottom: 1px solid #fff;
+	    padding: 10px 0;
+	}
+	#navbar li:last-child {
+		border-bottom: none;
+	}
+	#navbar li a {
+		color: #fff;
+	}
+
+	/*** slider css ***/
+
+	#myCarousel .carousel-item {
+	    min-height: 290px;
+	}
+	#myCarousel h4 {
+		font-size: 46px;
+	}
+
+	/*** Work ***/
+
+	.work_main .work_wrap:nth-child(1) {
+	    padding-left: 15px;
+		padding-right: 30px;
+	}
+	.work_main .work_wrap:nth-child(1) .work_box {
+	    margin-bottom: 30px;
+	}
+	.work_box .icon > span {
+		height: 100px;
+		width: 100px;
+		line-height: 100px;
+		margin-bottom: 20px
+	}
+	.work_box .icon .number {
+	    height: 30px;
+	    width: 30px;
+	    line-height: 30px;
+	}
+	.work_main .work_wrap:nth-child(2) {
+	    padding: 0 30px;
+	}
+	.work_main .work_wrap:nth-child(2) .work_box {
+	    position: relative;
+	}
+	.work_main .work_wrap:nth-child(2) .work_box::before {
+		width: 160px;
+		left: -130px;
+		top: 35px;
+	}
+	.work_main .work_wrap:nth-child(2) .work_box::after {
+		right: -130px;
+		width: 160px;
+		top: 35px;
+	}
+	.work_box .icon > span > span {
+	    line-height: 96px;
+	}
+	.work_main .work_wrap:nth-child(3) {
+		padding-right: 15px;
+		padding-left: 30px;
+	}
+
+
+	/*** About css ***/
+
+	.about-image {
+	    margin-left: 0;
+	}
+	.about-image::before {
+	    top: 105px;
+	    left: 50px;
+	    width: 250px;
+	}
+	.about-1 img, .about-2 img {
+	    width: 250px;
+	}
+	.about-image .about-2 {
+	    position: static;
+	    margin-top: 30px;
+	    width: auto;
+	    display: block;
+	}
+	.about-image .about-2 {
+	    position: absolute;
+	    margin-top: 0;
+	    top: 170px;
+	}
+
+	/*** Priceing ***/
+
+	.price-wrapper {
+		padding: 40px 15px 30px;
+	}
+	.price-wrapper .read-more {
+		width: 100%;
+		font-size: 14px;
+		padding: 0; 
+	}
+
+	/*** footer css ***/
+
+	.footer_content {
+	    margin-bottom: 30px;
+	} 
+
+	/*** Affiliare page css ***/
+
+	.affiliate_wrapper {
+	    padding: 60px 0;
+	}
+	.affiliate_wrap .affiliate-left, .affiliate_wrap .affiliate-right {
+	    width: 100%;
+	}
+	.affiliate_main.affiliate_right.text-right {
+	    text-align: center !important;
+	}
+	.affiliate_main.affiliate_right .icon.icon_bottom, .affiliate_main.affiliate_left .icon.icon_bottom {
+	    float: none;
+	    display: inline-block;
+	    margin-left: 0;
+	    margin-bottom: 15px;
+	    margin-top: 0;
+	}
+	.affiliate_wrap .affiliate-center {
+		width: 100%;
+	}
+	.affiliate_wrap .affiliate-center .single-image {
+	    margin: 20px 0 40px;
+	}
+	.affiliate_main.affiliate_left.text-left {
+	    text-align: center !important;
+	}
+
+	.single-image.affiliate_20:hover .affiliate-content {
+		width: 32%
+	}
+
+	.popup-message {
+        text-align: center;
+    }
+    .popup-compliance {
+        float: unset;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+
+}
+
+@media only screen and ( max-width: 767px ) {
+
+	/*** slider css ***/
+
+	#myCarousel .carousel-item {
+	    min-height: 450px;
+	}
+
+	.order-md-2.order-1 {
+		display: none;
+	}
+	.align-items-center {
+	    text-align: center;
+	    padding: 100px 0;
+	}
+
+	/*** work css ***/
+
+	.work_service {
+	    padding: 40px 0 20px;
+	}
+	.work_service .top-title {
+	    margin-bottom: 50px;
+	}
+	.work_main .work_wrap:nth-child(1) {
+	    padding-top: 0;
+	    padding: 0 15px;
+	    margin-bottom: 30px;
+	}
+	.work_box .icon > span {
+		margin-bottom: 20px;
+	}
+	.work_box .icon .number.text-left {
+	    margin-top: 0;
+	    top: -15px;
+	    left: 50%;
+	    margin-left: -20px;
+	}
+	.work_main .work_wrap:nth-child(2) .work_box::before,
+	.work_main .work_wrap:nth-child(2) .work_box::after {
+		display: none;
+	}
+	.work_main .work_wrap:nth-child(2) {
+	    padding: 0 15px;
+	}
+	.work_main .work_wrap:nth-child(3) {
+	    padding: 0 15px;
+	    margin-top: 30px;
+	}
+	.work_box .icon .number.text-right {
+	    right: 0;
+	    margin-top: 0;
+	    top: -15px;
+	    margin-left: -20px;
+	    left: 50%;
+	}
+
+	/*** about css ***/
+
+	.about_wrapper {
+	    background-color: #f7f7f7;
+	    padding: 40px 0 50px;
+	}
+	.single-image img {
+	    width: 100%;
+	}
+	.single-image {
+	    margin-top: 30px;
+	}
+	.about-image .about-2 {
+	    position: static;
+	    margin-top: 30px;
+	}
+	.about-image::before {
+		display: none;
+	}
+
+
+	/*** price css ***/
+	.pricing_wrap {
+	    padding: 40px 0;
+	}
+	.pricing_wrap .top-title {
+	    margin-bottom: 40px;
+	}
+
+	/*** spper mining ***/
+
+	.supermining_wrapper {
+	    padding: 40px 0 30px;
+	}
+	.supermining_wrapper .col-md-6 {
+	    margin-bottom: 30px;
+	}
+
+	/*** newsletter ***/
+	
+	.newaletter_form {
+	    text-align: left;
+	}
+
+	/*** footer css ***/
+	.footer_content {
+	    margin-top: 50px;
+	    border-bottom: 1px solid #fff;
+	    padding-bottom: 30px;
+	}
+	.footer_content:last-child {
+		border-bottom: none;
+		padding-bottom: 0;
+	}
+
+
+	/*** Affiliare page css ***/
+
+	.affiliate_wrapper {
+	    padding: 40px 0;
+	}
+
+	/*** popup right ***/
+
+	.mysideheader .container {
+	    width: 90%;
+	}
+
+	/*** Contact page css ***/
+
+	.contact_wrapper, .contact_main {
+	    padding: 40px 0 30px;
+	}
+
+	/*** inner page css ***/
+
+	.inner_wrapper {
+		padding:40px 0;
+	}
+
+	.single-image.affiliate_20:hover .affiliate-content {
+		width: 100%;
+		padding: 50px;
+	}
+	.single-image.affiliate_20 .affiliate-content h4 {
+	    margin-top: 40%;
+	}
+
+
+
+
+
+}
+
+
+
+@media only screen and ( max-width: 480px ) {
+
+	.single-image.affiliate_20 .affiliate-content h4 {
+	    margin-top: 25%;
+	}
+
+	#myCarousel .carousel-item {
+	    min-height: 550px;
+	}
+
+}
+
+@media only screen and (max-width: 991px) {
+.mysideheader .container {
+    width: 70%;
+}
+}
+
+@media only screen and (max-width: 767px) {
+	.mysideheader .container {
+	    width: 90%;
+	}
+
+	#myModal .modal-dialog {
+	    max-width: 100%;
+	}
+
+	.plan-poup h5 {
+	    font-size: 16px;
+	}
+}
+
+
+

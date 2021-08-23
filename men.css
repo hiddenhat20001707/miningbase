@@ -1,0 +1,75 @@
+body {
+    background: #f6f6f6;
+    height: 100%;
+}
+
+.paymens-box {
+    background: #fff;
+    padding: 20px;
+    margin-top: 45px;
+    -webkit-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 0px 19px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+}
+
+.paymens-box h3 {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #0033A0;
+}
+
+.item-data p {
+    color: #2a3557;
+    font-size: 15px;
+    line-height: 10px;
+    text-transform: uppercase!important;
+}
+
+.item-data span {
+    color: #000!important;
+    font-size: 12px!important;
+    line-height: 10px;
+    font-weight: 600;
+}
+
+.p-category {
+    font-size: 18px!important;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.p-dollor {
+    font-size: 18px!important;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.p-btc {
+    font-size: 22px!important;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ed7766!important;
+}
+
+.countdown-number {
+    font-size: 35px;
+    font-weight: 900;
+    color: #0033A0;
+}
+
+.time-order {
+    padding-bottom: 3px;
+}
+
+.payment-address {
+    background: #ed7766;
+    padding: 15px;
+    border-radius: 5px;
+    color: #2a3557;
+    font-size: 16px;
+}
+
+.escrow-block {
+    padding-left: 25px;
+}
